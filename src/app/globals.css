@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.card-shadow {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4), 0 0 0 1px rgba(0,0,0,0.15);
+}
+
+.card-hover:hover {
+  filter: brightness(1.05);
+  cursor: grab;
+}
+
+.drag-over {
+  outline: 2px dashed rgba(255,255,255,0.6);
+}
